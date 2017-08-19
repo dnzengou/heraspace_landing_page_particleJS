@@ -1,0 +1,73 @@
+{
+    "particles": {
+        "number": {
+            "value": 300
+        },
+        "color": {
+            "value": "#697e83"
+        },
+        "shape": {
+            "type": "edge",
+            "stroke": {
+                "width": 0,
+                "color": "#ccc"
+            },
+            "ploygon": {
+                "nb_sides": 4
+            },
+            "image": {
+                "src": "img/heraspace_logo.png"
+            }
+        },
+        "opacity": {
+            "value": 0.5,
+            "random": true,
+            "anim": {
+                "enable": true,
+                "speed": 1
+            }
+        },
+        "size": {
+            "value": 5,
+            "random": true,
+            "anim": {
+                "enable": true,
+                "speed": 25
+            }
+        },
+        "line_linked": {
+            "enable": true,
+            "distance": 120,
+            "color": "#abc0ee",
+            "width": 1
+        },
+        "move": {
+            "enable": true,
+            "speed": 4,
+            "direction": "bottom-right",
+            "straight": false
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "bubble"
+            }
+        },
+        "modes": {
+            "repulse": {
+                "distance": 50,
+                "duration": 0.4
+            },
+            "bubble": {
+                "distance": 100,
+                "size": 10
+            }
+        }
+    }
+}

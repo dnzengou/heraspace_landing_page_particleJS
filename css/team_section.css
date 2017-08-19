@@ -1,0 +1,90 @@
+.price-table {
+    margin-top: 100px;
+}
+
+.pricing {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    color: #39393a;
+    margin-bottom: 30px;
+}
+
+.pricing-top {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border: 5px solid #697e83;
+    margin: 0 auto;
+    background-image: url("https://0701.static.prezi.com/preview/te5orv6f65ecpxzpnpfbs6k2wp6jc3sachvcdoaizecfr3dnitcq_0_0.png");
+    background-color: #cccccc;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, .2);
+}
+
+.pricing-top p {
+    margin-top: 20px;
+}
+
+.pricing-top sup {
+    font-size: 20px;
+    top: -3px;
+    left: -5px;
+}
+
+.pricing-top em {
+    font-size: 25px;
+}
+
+.pricing-top span {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.pricing ul {
+    padding: 0;
+}
+
+.pricing ul li {
+    max-width: 140px;
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.btn {
+    background: #fff;
+    color: #39393a;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+    transform: .5s;
+}
+
+.pricing:hover {
+    background: #808080;
+    color: #697e83;
+    transition-duration: .5s;
+}
+
+.pricing:hover .pricing-top {
+    background: #fff;
+    color: #697e83;
+    transition-duration: .5s;
+}
+
+.pricing:hover .btn {
+    background: #fff;
+    color: #fff;
+    transition-duration: .5s;
+}
