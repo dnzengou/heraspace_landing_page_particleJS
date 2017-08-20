@@ -5,7 +5,13 @@ body {
 }
 
 #particles-js {
+    background-image: url("../img/coming_soon.png");
     background-color: #fff;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 25px;
     height: 100%;
     position: relative;
 }
