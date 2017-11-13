@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 	<!-- materialize css -->
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css">
@@ -31,14 +34,14 @@
 
 <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-static-top bg-faded">
+    <nav class="navbar navbar-toggleable-md navbar-static-top bg-faded"; style="background-color:transparent">
         <div class="container">
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
             <a class="navbar-brand" href="#">
-                <img alt="Brand" src="img/heraspace_logo.png">
+                <img alt="Brand" src="img/favicons/favicon-32x32_white.png">
             </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -78,6 +81,23 @@
 
     <div class="price-table" id="team">
         <div class="container">
+
+  <a class="btn-floating btn-large waves-effect waves-light transparent" onclick="document.getElementById('id01').style.display='block'" title="SUPPORT US !"><i class="material-icons">card_giftcard</i></a>
+  
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container" style="text-align:center">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+    <h4>Want to contribute to our <a href="https://www.indiegogo.com/project/preview/30c32cf3">crowdfund campaign</a>?</h4>
+	<img src="img/indiegogo_crowdfunding.png">
+    <h4>Check <a href="https://www.indiegogo.com/project/preview/30c32cf3">HERE</a> !</h4>
+	  </div>
+    </div>
+  </div>
+  
+  <br>
+  
             <div class="row">
                 <!--<div class="col-sm-6 col-md-3">-->
                 <div class="col-sm-8">
@@ -275,33 +295,6 @@
 				
 				<hr>
 
-            
-			<!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="color:#e5e5e5; text-align center">Support!</button>
-
-            <!-- Modal -->
-            <div id="myModal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title" id="modal-title"></h4>
-                        </div>
-                        <div class="modal-body">
-                            <H4>Want to contribute to our crowfunding campaign?</H4>
-                            <div id="recDiv">
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
 
             </div>
         </div>
@@ -321,6 +314,14 @@
 
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+	
+	<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	
 
     <script>
         particlesJS.load('particles-js', 'particles.json', function() {
